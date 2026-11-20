@@ -86,6 +86,7 @@ namespace HardRemote
                 ScreenUpdated?.Invoke(null, null);
             }
         }
+
         private static string LineFour_ = string.Empty;
         private static string LineFour
         {
@@ -118,7 +119,6 @@ namespace HardRemote
             "0x49",
             "0x4a",
             "0x4b",
-            "0x4a", // I'm basing this off Aaron's code, idek if this should stay or not (duplicate)
             "0x4d",
             "0x4e",
             "0x4f",
